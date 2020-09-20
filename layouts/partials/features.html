@@ -14,7 +14,7 @@
         {{ range .left_side }}
         <div class="mb-40 text-center text-md-left">
           <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
-          <h4 class="font-weight-bold mb-2">&check; {{ .title | markdownify }}</h4>
+          <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
           <p>{{ .content | markdownify }}</p>
         </div>
         {{ end }}
@@ -26,7 +26,7 @@
           {{ range .right_side }}
         <div class="mb-40 text-center text-md-left">
           <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
-          <h4 class="font-weight-bold mb-2">&check; {{ .title | markdownify }}</h4>
+          <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
           <p>{{ .content | markdownify }}</p>
         </div>
         {{ end }}

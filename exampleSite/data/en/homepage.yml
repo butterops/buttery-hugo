@@ -11,8 +11,8 @@ banner:
 
 ############################# Feature ############################
 features:
-  enable : true
-  title : "Co-create<sup>open</sup> to ~~Contribute~~ Earn"
+  enable : false
+  title : "Contribute to Earn"
   image : "images/creators.png"
 
   # feature at the left of the image
@@ -32,6 +32,10 @@ features:
     icon : "tf-ion-ios-cart-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
+    # feature item loop
+  - title : "Less IT, Zero Silos, Butter Ops"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
   # feature at the right of the image
   right_side:
@@ -50,10 +54,15 @@ features:
     icon : "tf-ion-ios-cart-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
+    # feature item loop
+  - title : "Security and performance monitoring"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
 
 ############################# promo ############################
 promo:
-  enable : true
+  enable : false
   image : "images/creators.png"
   title : "Onboard today with your Startup Project, Team or Idea"
   content : "Designed by professionals and intended to be forever free and remote, at ButterOps.Dev we try to fix this gap of lack of a workflow in programmers 
@@ -106,7 +115,7 @@ products:
 
 ################################## Subscription ###################
 subscription:
-  enable : true
+  enable : false
   bg_image : "images/collab.png"
   title : "We learn, We share"
   content : "We don't spam or advertise, subscribe today if you would also like to keep up with our further research and activities."

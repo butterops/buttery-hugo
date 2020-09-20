@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 baseurl = "http://buttery.butterops.dev"
-title = "Community as a Service"
+title = "Buttery - Hugo"
 theme = "buttery-hugo"
 googleAnalytics = "" # Ex: UA-123-45
 disableLanguages = [] # desable language from here
@@ -53,7 +53,7 @@ weight = 5
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = ""
 logo_width = "100px"
 description = "This is meta description"
 author = "ButterOps.Dev"
