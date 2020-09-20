@@ -12,7 +12,7 @@
         <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }}
           <li class="nav-item">
-            <a target="_blank" class="nav-link" href="{{ .URL | absLangURL }}">&#8599; {{ .Name }}</a>
+            <a target="_blank" class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
         </ul>
